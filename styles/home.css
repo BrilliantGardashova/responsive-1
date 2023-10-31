@@ -1,0 +1,35 @@
+#main .section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: url(../assets/img/background.png);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 575px) {
+  #main .section {
+    background-image: url(../assets/img/background.png);
+    background-size: auto;
+  }
+}
+#main .section_items .text1 {
+  font-size: 40px;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main .section .stars {
+  margin-bottom: 40px;
+}
+#main .section .text2 {
+  color: #fff;
+  font-size: 20px;
+}
+#main .section .text3 {
+  color: #fff;
+  font-size: 20px;
+}/*# sourceMappingURL=home.css.map */
